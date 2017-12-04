@@ -1,3 +1,9 @@
+#! /usr/bin/python3
+
+#Created by Timothy Burgess
+#Covered under the GPL
+#hi
+
 import math
 
 def SinglePrime(SingleNumber):
@@ -27,7 +33,7 @@ def FibNth(n):    # write Fibonacci series up to n
      """Print a Fibonacci series up to n."""
      a, b = 0, 1
      with open('report.txt', 'w') as results:    
-         for c in range(n):
+         for c in range(n):udo apt-get install dotnet-sdk-2.0.2
 #             results.write("########################## Fibonacci(" + str(c + 1) + ") #################\n")
              results.write(str(a) + " ")
              a, b = b, a+b
